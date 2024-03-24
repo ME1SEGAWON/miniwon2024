@@ -1,0 +1,22 @@
+{
+  "buy": {
+    "limit": { "exp": 999 },
+    "potion": { "money": 1250 },
+    "trash": { "money": 4 },
+    "wood": { "money": 700 },
+    "rock": { "money": 850 },
+    "string": { "money": 400 },
+    "iron": { "money": 3000 }
+  },
+  "sell": {
+    "potion": { "money": 125 },
+    "trash": { "money": 2 },
+    "wood": { "money": 600 },
+    "rock": { "money": 750 },
+    "string": { "money": 300 },
+    "iron": { "money": 2500 },
+    "gold": { "money": 4700 },
+    "diamond": { "money": 9000 },
+    "emerald": { "money": 15000 }
+  }
+}
