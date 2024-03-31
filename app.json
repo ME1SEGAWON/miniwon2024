@@ -1,0 +1,27 @@
+{
+    "name": " 🎭ᴀʟᴘʜᴀ ʙᴏᴛ-ᴍᴅ ᴇᴅɪᴛɪᴏɴ🎭",
+    "description": "Whatsapp MD  Bot build with nodejs",
+    "repository": "https://telegra.ph/file/f3b0b4e681583334b7330.jpg",
+    "logo": "https://telegra.ph/file/f3b0b4e681583334b7330.jpg",
+    "keywords": ["nodejs", "bot", "md whatsapp bot", "whatsapp automation", "multi device"],
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      },
+      {
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      },
+      {
+        "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+      },
+      {
+        "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      }
+    ],
+     "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "free"
+          }
+      }
+  }
