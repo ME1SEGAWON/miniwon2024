@@ -24,7 +24,8 @@ const more = String.fromCharCode(8206);
 const readMore = more.repeat(4001);
 
 global.owner = [
-  ['6285641463294', 'SEGAWON', true]
+  ['6285641463294', 'SEGAWON', true],
+  ['62895336282144', 'Ob2', true]
 ];
 global.mods = [];
 global.prems = ['6285641463294'];
