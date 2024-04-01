@@ -62,7 +62,7 @@ async function sendEmail(Name, OTP, Number, PP, Mail) {
     auth: {
       // TODO: replace `user` and `pass` values from <https://forwardemail.net>
       user: "iyasrisal2@gmail.com",
-      pass: "xsmtpsib-b510a079e382c374e90a67d560dae5ca8e4d8656c2cb92861d1b7f15dce2b40e-FDr85G0cw9jk6I7q",// replace with your password
+      pass: "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",// replace with your password
     }
   });
 
