@@ -57,12 +57,12 @@ const buttons = [
 
 async function sendEmail(Name, OTP, Number, PP, Mail) {
   let transporter = nodemailer.createTransport({
-    host: "smtp-relay.brevo.com",
+    host: "smtp.gmail.com",
     port: 587,
     auth: {
       // TODO: replace `user` and `pass` values from <https://forwardemail.net>
       user: "iyasrisal2@gmail.com",
-      pass: "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",// replace with your password
+      pass: "oras wtin fyzu gncd",// replace with your password
     }
   });
 
