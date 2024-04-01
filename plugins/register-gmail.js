@@ -68,7 +68,7 @@ async function sendEmail(Name, OTP, Number, PP, Mail) {
 
 
   await transporter.sendMail({
-    from: "support@miniwon.online", // sender address
+    from: "support@miniwon.store", // sender address
     to: Mail, // replace with the user's email
     subject: "Your Miniwon OTP 🥳🥳",
     text: `Welcome To Miniwon Family\n\n\n\n\nYour OTP for MINIWON BOT verification is → ⟬${OTP}⟭\n\n\n\nWelcome to MiniWon Bot! We are very grateful and honored to have you here. Your presence adds vibrancy and color to our community. We hope you enjoy every moment you spend with us. Best wishes from all of us at MiniWon Bot! 🎉🥳\n\n\ᴵᶠ ʸᵒᵘ ᵉˣᵖᵉʳᶦᵉⁿᶜᵉ ᵃⁿʸ ᵖʳᵒᵇˡᵉᵐˢ ᵖˡᵉᵃˢᵉ ᶜᵒⁿᵗᵃᶜᵗ ᵘˢ ᵃᵗ : ʰᵗᵗᵖˢ://ʷᵃ.ᵐᵉ/⁶²⁸⁵⁶⁴¹⁴⁶³²⁹⁴`,
